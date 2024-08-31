@@ -1,0 +1,12 @@
+INSERT INTO genders (gender) VALUES ('Masculino'),('Femenino'),('No binario'),  ('Otro');
+INSERT INTO interest_levels (interest_name) VALUES ('preparatoria'),('Licenciatura'),('Posgrado');
+INSERT INTO civil_statuses (civil_status) VALUES ('Soltero'),('Casado'),('Divorciado'),('Viudo');
+INSERT INTO courses (prefix,course_name,interest_level_id) VALUES ('Mtria','Admon. De Negocios',3), ('Lic','En Derecho',2), ('Mtria','Direccion de proyectos',3),('Lic','En Finanzas',2);    
+
+
+select* from users;
+select* from courses;
+select* from interest_levels;
+select* from civil_statuses;
+select* from genders;
+  
